@@ -1,6 +1,6 @@
 // index.js
 
-const map = L.map('map').setView([39.9526, -75.1652], 12);
+const map = L.map('map', {preferCanvas: true}).setView([39.9526, -75.1652], 12);
 
 // basemap
 L.tileLayer('https://tiles.stadiamaps.com/tiles/stamen_watercolor/{z}/{x}/{y}.jpg', {
